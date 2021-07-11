@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchAppl {
-	@Test //Testing 20-08 // 20-18 //20-28 //21:30
+	@Test //Testing 20-08 // 20-18 //20-28 //21:30 //21:45
 	public void f() {
 		String strPath = "E:\\SeleniumTraining1\\TestingApp.html";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		try {
 			driver.get(strPath);
-			System.out.println("Application Launched ......");
+			System.out.println("Application Launched ...... hmmmm");
 			driver.findElement(By.id("PWD")).sendKeys("Hello");
 			driver.findElement(By.xpath("//a[text()='Forgot Password?']")).click();
 			String strTitle = driver.findElement(By.xpath("//h2")).getText();
