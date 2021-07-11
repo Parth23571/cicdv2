@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11868" started-at="2021-07-11T19:19:46 IST" finished-at="2021-07-11T19:19:58 IST">
+  <suite name="Suite" duration-ms="15684" started-at="2021-07-11T20:46:43 IST" finished-at="2021-07-11T20:46:59 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11868" started-at="2021-07-11T19:19:46 IST" finished-at="2021-07-11T19:19:58 IST">
+    <test name="Test" duration-ms="15684" started-at="2021-07-11T20:46:43 IST" finished-at="2021-07-11T20:46:59 IST">
       <class name="com.stc.cicdv1.cicdv1.LaunchAppl">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.stc.cicdv1.cicdv1.LaunchAppl@7cd62f43]" name="f" duration-ms="11786" started-at="2021-07-11T19:19:46 IST" finished-at="2021-07-11T19:19:58 IST">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.stc.cicdv1.cicdv1.LaunchAppl@7cd62f43]" name="f" duration-ms="15603" started-at="2021-07-11T20:46:43 IST" finished-at="2021-07-11T20:46:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
