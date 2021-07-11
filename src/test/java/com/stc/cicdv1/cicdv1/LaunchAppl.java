@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchAppl {
-	@Test //Testing 20-08
+	@Test //Testing 20-08 // 20-18
 	public void f() {
 		String strPath = "E:\\SeleniumTraining1\\TestingApp.html";
 		WebDriverManager.chromedriver().setup();
@@ -19,7 +19,7 @@ public class LaunchAppl {
 			driver.findElement(By.id("PWD")).sendKeys("Hello");
 			driver.findElement(By.xpath("//a[text()='Forgot Password?']")).click();
 			String strTitle = driver.findElement(By.xpath("//h2")).getText();
-			System.out.println("Title is : " + strTitle);
+			System.out.println("Title is : - " + strTitle);
 			driver.quit();
 
 		} catch (Exception e) {
