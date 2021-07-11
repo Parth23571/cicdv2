@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchAppl {
-	@Test //Testing 20-08 // 20-18 //20-28 //21:30 //21:45
+	@Test //Testing 20-08 // 20-18 //20-28 //21:30 //21:45 //22:09-T1
 	public void f() {
 		String strPath = "E:\\SeleniumTraining1\\TestingApp.html";
 		WebDriverManager.chromedriver().setup();
